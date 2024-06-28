@@ -1,12 +1,12 @@
 trigger:
   branches:
     include:
-      - '*'
+    - '*'
     exclude:
-      - main
-      - unit-tests
-      - code-coverage
-      - failed-test
+    - main
+    - unit-tests
+    - code-coverage
+    - failed-test
 
 pool:
   #vmImage: 'ubuntu-20.04'
